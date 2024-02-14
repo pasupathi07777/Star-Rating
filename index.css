@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;}
+
+
+.star-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        background-color: black;
+}
+.star-container div{
+    display: flex;
+}
+.star-box{
+    font-size: 50px;
+    color: yellow;
+
+}
+.rating-box{
+    color: #ffff;
+    font-size: 24px;
+    width: 200px;
+  
+    /* background-color: aqua; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+  
+
+}
