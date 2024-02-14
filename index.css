@@ -12,6 +12,8 @@
         height: 100vh;
         flex-direction: column;
         background-color: black;
+        cursor: pointer;
+        user-select: none;
 }
 .star-container div{
     display: flex;
